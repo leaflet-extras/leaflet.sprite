@@ -32,8 +32,8 @@ background-size:41px, 41px
  .leaflet-sprite-violet{ background-position: 0 -557px; width: 82px; height: 82px; } 
  .leaflet-sprite-yellow{ background-position: 0 -669px; width: 82px; height: 82px; } 
 """
-if L.Browser.retina
-	L.css([cssRetina])
-else
-	L.css([cssRegular])
+#if L.Browser.retina
+#	L.css([cssRetina])
+#else
+L.css([cssRegular])
     
