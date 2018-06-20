@@ -21,7 +21,7 @@ L.marker([42, -71], {
 L.marker([42, -71.5], {
   icon: L.spriteIcon('red')
 });
-
+```
 
 to build your own:
 
